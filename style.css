@@ -1,0 +1,19 @@
+header{
+    display: flex;
+    color: red;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    height: 20vh;
+    width: 100%;
+}
+.home-button{
+    color:green;
+   }
+
+.about-button{
+    background-color: blue;
+}
+.story-button{
+    color: red;
+}
