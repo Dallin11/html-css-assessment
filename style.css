@@ -1,19 +1,57 @@
+body{
+    background-image: url("./img/main-bg.jpeg");
+    background-size: cover;
+   
+}
+.pic{
+    height: 80px;
+    width: 20px;
+}
+
 header{
     display: flex;
-    color: red;
     justify-content: space-around;
     align-items: center;
     margin: 0 auto;
-    height: 20vh;
+    height: 10vh;
     width: 100%;
+    padding-bottom:0em;
+    
 }
-.home-button{
-    color:green;
+.home{
+    text-decoration: none;
+    font-size: 30px;
+    color:white;
    }
+   
+.about{
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+}
+.story{
+    text-decoration:none;
+    font-size: 30px;
+    color: white;
+}
+.main{
 
-.about-button{
-    background-color: blue;
 }
-.story-button{
-    color: red;
+.your {
+   display: flex;
+    align-items:center;
+    justify-content: center;
+    font-size: 60px;
+    margin: 0 auto;
+    color:white;
+    padding-top: 200px;
 }
+.personal-portfolio {
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    font-size: 15px;
+    color:white;
+    
+}
+

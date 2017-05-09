@@ -7,7 +7,8 @@ Show understanding of core HTML/CSS Concepts
 ##Directions
 Fork this repo, clone your fork, then make it look like this.
 
-![Design](https://github.com/DevMountain/html-css-assessment/blob/master/img/html.gif?raw=true, "Design")
+![Design](
+    , "Design")
 
 
 When you have completed the challenges please follow these instructions:
