@@ -1,14 +1,34 @@
-body{
+/*body{
     background-image: url("./img/main-bg.jpeg");
     background-size: cover;
    
 }
-.pic{
+
+
+
+ .header
+{
+    visibility: visible;
+    color: white;
+    height: 80%;
+    font-size: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+
+        
+    .pic{
     height: 80px;
     width: 20px;
 }
+a{
+    text-decoration: none;
+}
 
-header{
+    header{
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -18,26 +38,23 @@ header{
     padding-bottom:0em;
     
 }
-.home{
+    .home{
     text-decoration: none;
     font-size: 30px;
     color:white;
    }
    
-.about{
+    .about{
     text-decoration: none;
     font-size: 30px;
     color: white;
 }
-.story{
+    .story{
     text-decoration:none;
     font-size: 30px;
     color: white;
 }
-.main{
-
-}
-.your {
+    .your {
    display: flex;
     align-items:center;
     justify-content: center;
@@ -46,7 +63,7 @@ header{
     color:white;
     padding-top: 200px;
 }
-.personal-portfolio {
+    .personal-portfolio {
     display: flex;
     align-items:center;
     justify-content: center;
@@ -55,3 +72,26 @@ header{
     
 }
 
+@media (max-width: 600px) {
+  .header {
+    display: flex;
+  }
+  .home{
+    display: none;
+  }
+  .about {
+    display: none;
+  }
+  .story{
+    display: none;
+  }
+  .pic{
+    display: none;
+  }
+  .body{
+    display: none;
+  }
+  .personal-portfolio{
+    display: none;
+  }
+}*/
